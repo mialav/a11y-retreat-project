@@ -40,6 +40,8 @@ export interface TranslationKeys {
   heading: string
   getStatistics: string
   postalCode: string
+  demographic: string
+  amount: string
   postalCodeError: string
 }
 
