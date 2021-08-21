@@ -40,11 +40,11 @@ const Main = ({ lang }: MainProps) => {
         value={postalCode}
         handleOnChange={handlePostalCodeChange}
       />
-      <ErrorMessage error={error} />
+      <ErrorMessage error={error} lang={lang} />
       <button className="submit-button" onClick={getStatistics}>
         {translations[lang].getStatistics}
       </button>
-      <Table data={data} />
+      <Table data={data} lang={lang} />
     </main>
   )
 }
