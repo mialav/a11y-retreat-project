@@ -8,14 +8,13 @@ interface InputProps {
 
 const Input = ({ label, value, handleOnChange }: InputProps) => {
   return (
-    <>
-      <div>
-        <span>{label}</span>
-      </div>
-      <div>
+    <div>
+      <label>
+        {label}
+        <br />
         <input value={value} onChange={handleOnChange} />
-      </div>
-    </>
+      </label>
+    </div>
   )
 }
 
