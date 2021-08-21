@@ -2,7 +2,7 @@
   --c-background-color: #00120B;
   --c-text-color: #D8E4FF;
   --c-primary-color: #35605A;
-  --c-secondary-color: #6B818C;
+  --c-secondary-color: #394C4C;
   --c-tertiary-color: #31E981;
 }
 
@@ -30,6 +30,7 @@ body {
 
 .submit-button {
   margin-left: 0;
+  color: var(--c-text-color);
 }
 
 .row {
