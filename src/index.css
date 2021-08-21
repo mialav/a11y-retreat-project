@@ -22,6 +22,7 @@ body {
 
 .button, button {
   background-color: var(--c-secondary-color);
+  color: var(--c-text-color);
   border: 0.15rem solid var(--c-text-color);
   padding: 0.25rem;
   margin: 0.5rem;
